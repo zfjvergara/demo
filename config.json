@@ -1,0 +1,30 @@
+{
+  "vm": {
+    "ip": "192.168.44.44",
+    "memory": "1024",
+    "synced_folders": [
+      {
+        "host_path": "data/",
+        "guest_path": "/var/www",
+        "type": "default"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "version1": {
+        "account_name": "NAtashaRomanoff",
+        "account_pass": "XrQ5%chGAk&mLS",
+        "account_mail": "natasha@stark.com",
+        "site_name": "Stark Industries",
+        "site_mail": "hi@stark.com",
+        "vhost": {
+          "document_root": "stark",
+          "url": "starkindustries.com",
+          "alias": ["www.starkindustries.com"]
+        }
+      },
+    }
+  }
+}
